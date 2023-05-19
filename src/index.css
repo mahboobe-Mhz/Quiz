@@ -1,0 +1,17 @@
+html,body,#root{
+    height: 100%;
+    width: 100%;
+    background-color:lightBlue
+}
+*,::after,::before{
+box-sizing: border-box;
+padding:0;
+margin: 0
+}
+@font-face {
+    font-family:"dana" ;
+    src: url("src/assets/fonts/dana-medium.woff2");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
